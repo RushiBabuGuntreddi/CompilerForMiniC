@@ -1,26 +1,33 @@
-Compiler for miniC
+# 🧩 Compiler for miniC
 
-Course project — Prof. Rupesh Nasre | Aug–Nov 2024
+> **Course:** Compiler Construction (Aug–Nov 2024)  
+> **Instructor:** Prof. Rupesh Nasre, IIT Madras  
 
-This repository contains a working compiler for miniC (educational subset of C).
+---
 
-Highlights
-- Lexing and parsing components (flex & bison sources).
-- TAC (Three Address Code) generation modules.
-- Backend code generation modules to produce x86 assembly from TAC.
-- A basic block-level optimization pass (live-variable analysis and removal of dead TAC lines).
+## 🧠 Overview
 
-Structure
-- lexing_parsing/: flex/yacc sources and a small set of testcases (valid/invalid).
-- tac_generation/: flex/yacc sources used to produce TAC from parsed AST.
-- codegen/: code generation sources that translate TAC to x86 (assembly) and helper scripts.
-- optimizations/: sources implementing basic block and TAC-level optimizations.
+This project was developed as part of the **Compiler Construction** course under Prof. Rupesh Nasre (Aug–Nov 2024) at IIT Madras.  
+The primary goal was to build a fully functioning compiler for **miniC**, an educational subset of the C programming language, with components for **lexing**, **parsing**, **semantic analysis**, and **code generation**.
 
-How I want this to appear on the remote
-- Only the compiler project files are included (the `CompilerForMiniC` folder).
-- Lab folders, zip archives, and generated binaries are excluded.
+---
 
-Build & run (example, on Linux)
-1. cd lexing_parsing
-2. make
-3. ./a.out < test.c
+## 📂 Directory Structure
+
+| Directory | Description |
+|:--|:--|
+| `codegen/` | Target assembly code generation |
+| `lexing_parsing/` | Lexer, parser, and semantic checking |
+| `optimizations/` | Three Address Code (TAC) optimization passes |
+| `tac_generation/` | TAC (Three Address Code) generation modules |
+
+---
+
+## ⚙️ Features
+
+- Implements complete lexing, parsing, and semantic analysis for miniC.  
+- Generates TAC and applies basic block–level optimizations.  
+- Converts optimized TAC to target assembly.  
+- Validates correctness by comparing generated assembly output with original miniC program output.
+
+---
