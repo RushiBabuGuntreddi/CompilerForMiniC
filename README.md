@@ -24,6 +24,3 @@ Build & run (example, on Linux)
 1. cd lexing_parsing
 2. make
 3. ./a.out < test.c
-
-License
-MIT
