@@ -1,0 +1,7 @@
+int arr[10];
+int main() {
+	int x, y;
+	arr[5] = 10;
+	if (arr[11] < 5 + y)
+		printf("%d\n", y);
+}

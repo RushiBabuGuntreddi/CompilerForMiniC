@@ -1,0 +1,19 @@
+int arr[10];
+float fun(int switchh) {
+	if (switchh == 0)
+		return 1+2*3;
+	else {
+		return 1**fun(switchh - 1);
+	}
+	if (unreachable + 1 < unreachableplus1 + doubles)
+		if (x < 25)
+			x = unreachable + 1;
+	return;
+}
+int main() {
+	int fun; 
+	arr[5] = 10;
+	fun = fun(20 - x - 20, 30-4*y*z**power**power_ful4, arr);
+	while (do_while < 5)
+		do_while = do_while + fun;
+}

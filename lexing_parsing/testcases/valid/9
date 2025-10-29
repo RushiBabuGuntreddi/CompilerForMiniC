@@ -1,0 +1,30 @@
+int arr[10], x, y;
+int x;
+float fun_fun2() {
+	if (insti == iitm)
+		printf("1");
+	else if (insti < iisc)
+		insti = iisc;
+	else {
+		while (insti > iitb) {
+			if (insti == iitk)
+				return 4;
+			else
+				printf("4");
+		}
+	}
+
+	return insti;
+}
+int fun (char fun3) {
+	fun3 = fun3;
+	fun3 = fun3 + 2;
+	fun3 = fun3 ** 2;
+	fun3 = fun3 * 2;
+	return fun3;
+}
+int main() {
+	fun(1);
+	fun_fun2(2);
+	return 0;
+}
